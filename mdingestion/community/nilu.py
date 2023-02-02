@@ -8,7 +8,7 @@ class NiluIso19139(Repository):
     SCHEMA = SchemaType.ISO19139
     SERVICE_TYPE = ServiceType.OAI
     OAI_METADATA_PREFIX = 'iso19139'
-    OAI_SET = ''
+    # OAI_SET = None
     PRODUCTIVE = False
     CRON_DAILY = False
     DATE = '2023-02-01'
