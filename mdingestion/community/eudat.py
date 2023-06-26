@@ -16,7 +16,7 @@ class BaseEudat(Repository):
 
 
 class EudatCsc(BaseEudat):
-    IDENTIFIER = 'eudat_csc'
+    #IDENTIFIER = 'eudat_csc'
     GROUP = 'b2share'
     URL = 'https://b2share.eudat.eu/api/oai2d'
     SCHEMA = SchemaType.Eudatcore
@@ -28,7 +28,7 @@ class EudatCsc(BaseEudat):
 
 
 class EudatFzj(BaseEudat):
-    IDENTIFIER = 'eudat_fzj'
+    #IDENTIFIER = 'eudat_fzj'
     GROUP = 'b2share'
     URL = 'https://b2share.fz-juelich.de/api/oai2d'
     SCHEMA = SchemaType.Eudatcore
