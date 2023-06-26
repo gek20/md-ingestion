@@ -5,11 +5,11 @@ from ..service_types import SchemaType, ServiceType
 class WhateverinEudatcore(Repository):
     IDENTIFIER = 'summerschool'
     TITLE = 'Summer School Kajaani'
-    URL = 'https://b2share.eudat.eu/api/oai2d'
+    URL = 'https://vm0897.kaj.pouta.csc.fi/api/oai2d'
     SCHEMA = SchemaType.Eudatcore
     SERVICE_TYPE = ServiceType.OAI
     OAI_METADATA_PREFIX = 'eudatcore'
-    OAI_SET = 'veeeery-important-string-here'
+    OAI_SET = '	e9b9792e-79fb-4b07-b6b4-b9c2bd06d095'
     PRODUCTIVE = False
     DATE = '2023-06-27'
     CRON_DAILY = False
