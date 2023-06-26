@@ -3,8 +3,9 @@ from ..service_types import SchemaType, ServiceType
 
 
 class BaseEudat(Repository):
-    IDENTIFIER = 'eudat'
-    NAME = 'EUDAT'
+    #IDENTIFIER 
+    NAME = 'eudat'
+    TITLE = 'EUDAT'
     PRODUCTIVE = True
     DATE = '2023-01-23'
 
@@ -16,7 +17,7 @@ class BaseEudat(Repository):
 
 
 class EudatCsc(BaseEudat):
-    #IDENTIFIER = 'eudat_csc'
+    IDENTIFIER = 'eudat_csc'
     GROUP = 'b2share'
     URL = 'https://b2share.eudat.eu/api/oai2d'
     SCHEMA = SchemaType.Eudatcore
@@ -28,7 +29,7 @@ class EudatCsc(BaseEudat):
 
 
 class EudatFzj(BaseEudat):
-    #IDENTIFIER = 'eudat_fzj'
+    IDENTIFIER = 'eudat_fzj'
     GROUP = 'b2share'
     URL = 'https://b2share.fz-juelich.de/api/oai2d'
     SCHEMA = SchemaType.Eudatcore

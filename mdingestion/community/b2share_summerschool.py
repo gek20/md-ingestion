@@ -3,7 +3,7 @@ from ..service_types import SchemaType, ServiceType
 
 
 class BaseSummerschool(Repository):
-    IDENTIFIER = 'summerschool'
+    NAME = 'summerschool'
     TITLE = 'Summer School Kajaani'
     PRODUCTIVE = False
     DATE = '2023-06-27'
