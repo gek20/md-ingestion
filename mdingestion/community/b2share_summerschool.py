@@ -38,7 +38,7 @@ class SummerschoolEudat(BaseSummerschool):
             doc.contact = 'somecrazyemail@coolrepo.eu, www.anyhelpdesk.eu'
 
 
-class KajaaniSummerschool(BaseSummerschool):  
+class Summerschool2023(BaseSummerschool):  
     IDENTIFIER = 'summerschool_2023'
     URL = 'https://vm0897.kaj.pouta.csc.fi/api/oai2d'
     SCHEMA = SchemaType.Eudatcore
