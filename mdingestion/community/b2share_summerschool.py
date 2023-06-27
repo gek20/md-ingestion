@@ -45,3 +45,11 @@ class Summerschool2023(BaseSummerschool):
     SERVICE_TYPE = ServiceType.OAI
     OAI_METADATA_PREFIX = 'eudatcore'
     OAI_SET = '06acf21c-7e65-4360-8306-62b781121096'
+
+    def update(self, doc):
+        if not doc.resource_type:
+            doc.resource_type = 'Dataset'
+        if not doc.discipline:
+            doc.discipline = 'Social/Natural Sciences'
+        if not doc.contact:
+            doc.contact = 'somecrazyemail@coolrepo.eu, www.anyhelpdesk.eu'
